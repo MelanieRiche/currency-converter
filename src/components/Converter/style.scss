@@ -1,0 +1,7 @@
+@use 'src/styles/vars';
+
+.converter {
+  width: 96%;
+  max-width: 300px;
+  margin: vars.$gutter auto;
+}

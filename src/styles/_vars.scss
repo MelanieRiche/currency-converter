@@ -1,0 +1,12 @@
+@use 'sass:color';
+
+$color: #123456;
+$colorAlt: color.scale($color, $lightness: 70%);
+$colorLight: #fff;
+
+$fast: 0.2s;
+$slow: 1s;
+
+$font: 'Spartan', sans-serif;
+
+$gutter: 1rem;
